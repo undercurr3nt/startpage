@@ -1,37 +1,3 @@
-
-
-  
-
-
-      
-
-    
-      
-
-        
-    
-
-
-    
-          
-
-        
-          
-            
-
-          
-            
-
-
-
-
-      
-  
-
-      
-
-      
-        
 function showTime() {
       
       
@@ -99,7 +65,7 @@ function showTime() {
       
       
         
-	).innerHTML = `${today}, ${hour}:${minute}:${second} | ${day}/${month}/${year}`;
+	).innerHTML = `${today}, ${hour}:${minute}:${second} | ${month}/${day}/${year}`;
       
       
         
