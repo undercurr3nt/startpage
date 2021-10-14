@@ -49,30 +49,11 @@ function showTime() {
       
         
 	second = addZero(second);
-      
-      
-        
-
-
-      
-      
-        
+  
 	document.getElementById(
-      
-      
-        
-		"date"
-      
-      
-        
-	).innerHTML = `${today}, ${hour}:${minute}:${second} | ${month}/${day}/${year}`;
-      
-      
-        
-	setTimeout(showTime, 0);
-      
-      
-        
+		"date"    
+	).innerHTML = `${today}, ${hour}:${minute}:${second} | ${month}/${day}/${year}`;  
+	setTimeout(showTime, 0);    
 }
       
       
